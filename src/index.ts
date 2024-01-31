@@ -1,6 +1,7 @@
 import fetch from 'node-fetch';
 import { Encoder } from 'nai-js-tokenizer';
 import { components } from './api'
+import * as nerdstashv2 from "./nerdstashv2.json";
 
 // Tokenizer
 
@@ -42,7 +43,7 @@ interface TokenizerDefinition {
     specialTokens: string[],
     config: TokenizerConfig
 }
-const NerdstashV2 = require('./nerdstashv2.json') as TokenizerDefinition;
+const NerdstashV2 = nerdstashv2 as TokenizerDefinition;
 export const Tokenizer = new Encoder(NerdstashV2.vocab,NerdstashV2.merges,NerdstashV2.specialTokens,NerdstashV2.config);
 export function textToTokens(text: string) : string
 {

@@ -2,7 +2,8 @@
   "name": "naijs",
   "version": "0.0.1",
   "description": "A wrapper around NovelAI's API for JavaScript.",
-  "main": "build/index.js",
+  "main": "./build/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
