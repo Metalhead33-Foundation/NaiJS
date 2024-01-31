@@ -1,0 +1,33 @@
+{
+  "name": "naijs",
+  "version": "0.0.1",
+  "description": "A wrapper around NovelAI's API for JavaScript.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metalhead33-Foundation/NaiJS.git"
+  },
+  "keywords": [
+    "novelai",
+    "ai",
+    "api"
+  ],
+  "author": "Metalhead33",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Metalhead33-Foundation/NaiJS/issues"
+  },
+  "homepage": "https://github.com/Metalhead33-Foundation/NaiJS#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.13",
+    "@types/node-fetch": "^2.6.7",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "nai-js-tokenizer": "^1.0.1",
+    "node-fetch": "^2.6.7"
+  }
+}
